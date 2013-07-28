@@ -1,0 +1,131 @@
+$baseFontFamily: Source Sans Pro;
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic);
+
+$navbarBackgroundHighlight:#0099ff;
+$navbarBackground: #0099ff;
+$btnPrimaryBackground: #0099ff;
+$navbarLinkColor: white;
+@import 'bootstrap';
+
+h1{
+	font-weight: 700;
+	font-size: 56px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	line-height: 50px;
+	color: black;
+}
+
+h2{
+	font-weight: 400;
+	font-size: 56px;
+}
+
+h3{
+	font-weight: 300;
+	font-size: 36px;
+}
+
+h4{
+	font-weight: 200;
+	font-size: 26px;
+	line-height: 30px;
+	margin-top: 20px;
+	margin-bottom: -8px;
+}
+
+h5{
+	font-weight: 200;
+	font-size: 16px;
+}
+
+body{
+	height:100%;
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+.navbar-toggle {
+  position: absolute;
+  top: 9px;
+  right: 10px;
+  width: 48px;
+  height: 32px;
+  padding: 8px 12px;
+  background-color: transparent;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+.navbar-inner{
+    @include box-shadow(none !important);
+    border: 0;
+    padding-top: 10px;
+   	padding-bottom: 10px;
+}
+.btn-signup {
+  background-color: none;
+  color: white;
+}
+
+#homer1 {
+	background-color: white;
+	background-image: url('http://blog.mensliberty.com/Portals/157023/images/iStock_000008064653Large.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-left: -20px;
+	margin-right: -20px;
+
+}
+
+#homer2 {
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-left: -20px;
+	margin-right: -20px;
+	height: 400px;
+
+}
+#testimonials {
+	margin-bottom: 50px;
+}
+#exampleInputEmail{
+	padding: 10px;
+	width: 300px;
+	font-size: 16px;
+	font-weight: 200
+}
+
+#exampleInputPassword{
+	padding: 10px;
+	width: 300px;
+	font-size: 16px;
+	font-weight: 200
+}
+#overlay {
+	height: 280px;
+}
+
+.icon-comment {
+	margin-top: 10px;
+}
+/* Wrapper for page content to push down footer */
+
+#push,
+#footer {
+float: bottom;
+height: 60px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+#footer {
+background-color: #f5f5f5;
+}
+
